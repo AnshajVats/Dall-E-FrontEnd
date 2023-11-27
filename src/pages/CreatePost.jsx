@@ -77,7 +77,7 @@ const CreatePost = () => {
 
         await response.json();
         alert("Success");
-        navigate("/");
+        navigate("/Dall-E-FrontEnd/");
       } catch (err) {
         alert(err);
       } finally {
